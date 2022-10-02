@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# BR34P Native Buy Button
+<h1 align="center"> BR34P Native Buy Button<h1>
 
 <p align='center'>
     <img src='https://img.shields.io/badge/JavaScript-92%25-yellow?style=plastic&logo=javascript'>
