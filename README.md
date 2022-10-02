@@ -23,7 +23,7 @@ In your terminal Run
 ### Import private key from ganache into your Metamask extention. A list is provided in your terminal after running the above ganache command. 
 <br/>
 
-### Navigate to the cloned folder locally and Run:
+### In your terminal, navigate to the cloned folder locally and Run:
 
 ### `npm start`
 
