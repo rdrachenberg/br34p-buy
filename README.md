@@ -45,7 +45,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### In your terminal, navigate to the cloned folder locally and Run:
 
-    `npm start`
+    npm start
 
 <br/> 
 
