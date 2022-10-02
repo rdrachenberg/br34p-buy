@@ -25,7 +25,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Development Instructions
 
 ### Clone repo run
-#### `git clone https://github.com/rdrachenberg/br34p-buy.git`
+    git clone https://github.com/rdrachenberg/br34p-buy.git
 <br/>
 
 ### Start a local blockchain (Requires ganache)
@@ -33,9 +33,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 #### Ganache can be found here https://www.npmjs.com/package/ganache
 <br/>
 
-In your terminal Run
-### `ganache --fork https://bsc-dataseed.binance.org` 
-#### in your terminal. 
+### In your terminal Run
+    ganache --fork https://bsc-dataseed.binance.org
 <br/>
 
 ### Connect to local ganache chain via Metamask (current port is 8545)
@@ -46,7 +45,7 @@ In your terminal Run
 
 ### In your terminal, navigate to the cloned folder locally and Run:
 
-### `npm start`
+    `npm start`
 
 <br/> 
 
