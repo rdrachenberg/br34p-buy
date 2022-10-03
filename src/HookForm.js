@@ -36,7 +36,7 @@ const WBNBAddress = '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c'; // WBNB token 
 
 
 export default function HookForm(props) {
-  const {active, account, deactivate }= useWeb3React();
+  const { active, account } = useWeb3React();
   const { onClose } = useDisclosure()
 
   console.log(props)
@@ -63,16 +63,8 @@ export default function HookForm(props) {
       setconnectedAcct(connectedAcct);
       setTransactionHash(transactionHash)
       setDisplayTransaction(true);
-      try {
-        deactivate();
-      } catch(err) {
-        console.log(err);
-        
-      }
-      
-      
     }
-  }, [transactionReceipt, connectedAcct, transactionHash, deactivate]);
+  }, [transactionReceipt, connectedAcct, transactionHash]);
 
   async function onSubmit(values) {
 
@@ -85,14 +77,14 @@ export default function HookForm(props) {
       })
       .catch((err) => {
         console.log(err);
-      }) 
+      }); 
 
       window.ethereum.on('accountsChanged', function(accounts) {
         selectedAccount = accounts[0];
 
         console.log(`Selected account is changed to ${selectedAccount}`)
-      })
-    
+      });
+
     } 
     
       const networkId = await web3.eth.net.getId();
