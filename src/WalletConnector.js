@@ -30,6 +30,7 @@ export default function HomeWalletConnector() {
         try {
             deactivate();
             localStorage.setItem('isWalletConnected', false);
+            
             // localStorage.setItem('walletAccount', 'logged out');
             clearThat()
         } catch(err) {
@@ -57,7 +58,7 @@ export default function HomeWalletConnector() {
                 } catch (err) {
                     console.log(err)
                 }
-            }            
+            }    
         }
 
         connectWalletOnLoad();
