@@ -87,3 +87,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## TODO
     Call quote function from pancakeswap router to display exchange rate
     function quote(uint amountA, uint reserveA, uint reserveB) external pure returns (uint amountB);
+<br/>
+    Switch out the form validation with a different library. Probably Formik
